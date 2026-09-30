@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
 import { OnlineCountProvider } from "@/lib/presence";
 import GlobalErrorListener from "@/components/GlobalErrorListener";
 import CookieConsentBanner from "@/components/CookieConsentBanner";
@@ -48,6 +49,7 @@ export default function RootLayout({
         <GlobalErrorListener />
         <OnlineCountProvider>{children}</OnlineCountProvider>
         <CookieConsentBanner />
+        <Analytics />
       </body>
     </html>
   );
