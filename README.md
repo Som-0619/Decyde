@@ -1,4 +1,4 @@
-# decyde
+# Decyde
 
 Stop debating in the group chat. Create a decision room, share the link, everyone swipes yes / no / meh, and the winner gets revealed the moment the votes are in — no sign-up, no accounts, ever.
 
